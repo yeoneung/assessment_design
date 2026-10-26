@@ -1,0 +1,193 @@
+{
+  "notice": "All numerical inputs are illustrative and synthetic.",
+  "parameters": {
+    "L": 2.0,
+    "d": [
+      0.1,
+      0.25,
+      0.45
+    ],
+    "p1": [
+      0.9,
+      0.9,
+      0.9
+    ],
+    "p0": [
+      0.8,
+      0.65,
+      0.45
+    ],
+    "t": [
+      0.06,
+      0.35,
+      2.2
+    ],
+    "b": 1.0,
+    "g": 2.0,
+    "G0": 0.2,
+    "eta": 3.12,
+    "delta": 1.0,
+    "K": 1.0,
+    "kbar": 0.8,
+    "r": 1.5,
+    "H0_map": 1.5,
+    "H_compare": 1.8
+  },
+  "optimum": {
+    "z": 0.6509725906277629,
+    "C": 1.0482482316534034,
+    "F": 0.8137157382847036,
+    "M": 0.49054487179487216,
+    "rcrit": 2.588892849248454,
+    "a_B": 0.6225685234305927,
+    "a_C": 0.3774314765694073,
+    "Hc": 1.4289121202221484,
+    "Hs": 2.5387931034482754,
+    "s_crit": 0.11530102445226106,
+    "tangency": 0.4737389177851779,
+    "support": 0.14412628056532634,
+    "Hs_supported": 2.682919384013602,
+    "r_zero_switch": 0.09810897435897444,
+    "payment_per_result": 1.6787340515580131,
+    "learning_cost_per_author": 0.26485332109288806
+  },
+  "benchmarks": {
+    "R_taskB": 2.460000000000001,
+    "R_full_learning": 2.463299999999999,
+    "R_taskC": 0.0,
+    "C_full": 1.7375000000000003,
+    "gain_over_best_benchmark": 0.05098560843115152
+  },
+  "policies": [
+    {
+      "policy": "No assessment",
+      "z": 0.0,
+      "assessment_cost": 0.0,
+      "learning_share": 0.0,
+      "M": -1.0,
+      "rcrit": 0.0,
+      "Hc": null,
+      "Hs": null,
+      "throughput": 1.0,
+      "expertise_drift": -1.8
+    },
+    {
+      "policy": "Task 1 only",
+      "z": 0.2,
+      "assessment_cost": 0.06,
+      "learning_share": 0.25,
+      "M": -0.28,
+      "rcrit": 0.0,
+      "Hc": null,
+      "Hs": null,
+      "throughput": 1.0,
+      "expertise_drift": -1.02
+    },
+    {
+      "policy": "Task 2 only",
+      "z": 0.5,
+      "assessment_cost": 0.35,
+      "learning_share": 0.625,
+      "M": 0.6000000000000001,
+      "rcrit": 2.460000000000001,
+      "Hc": 1.1499999999999997,
+      "Hs": 1.9500000000000002,
+      "throughput": 1.0,
+      "expertise_drift": 0.15000000000000013
+    },
+    {
+      "policy": "Task 3 only",
+      "z": 0.9,
+      "assessment_cost": 2.2,
+      "learning_share": 1.0,
+      "M": -0.08000000000000007,
+      "rcrit": 0.0,
+      "Hc": null,
+      "Hs": null,
+      "throughput": 0.5007320644216691,
+      "expertise_drift": -0.23771595900439246
+    },
+    {
+      "policy": "Cheapest full learning",
+      "z": 0.8,
+      "assessment_cost": 1.7375000000000003,
+      "learning_share": 1.0,
+      "M": 0.38249999999999984,
+      "rcrit": 2.463299999999999,
+      "Hc": 1.860784313725491,
+      "Hs": 3.12,
+      "throughput": 0.5746691871455576,
+      "expertise_drift": -0.007032136105860287
+    },
+    {
+      "policy": "Resilient design",
+      "z": 0.6509725906277629,
+      "assessment_cost": 1.0482482316534034,
+      "learning_share": 0.8137157382847036,
+      "M": 0.49054487179487216,
+      "rcrit": 2.588892849248454,
+      "Hc": 1.4289121202221484,
+      "Hs": 2.5387931034482754,
+      "throughput": 0.7368035193234324,
+      "expertise_drift": 0.07059169345474814
+    }
+  ],
+  "sensitivity": [
+    {
+      "eta": 3.0,
+      "z_star": 0.5366666666666666,
+      "learning_share": 0.6708333333333333,
+      "rcrit": 2.0825729166666664,
+      "task_B": 2.0737499999999995,
+      "full_learning": 1.6274999999999984,
+      "gain": 0.0042545710267229975
+    },
+    {
+      "eta": 3.04,
+      "z_star": 0.570175438596491,
+      "learning_share": 0.7127192982456138,
+      "rcrit": 2.230877192982456,
+      "task_B": 2.1999999999999993,
+      "full_learning": 1.8996999999999986,
+      "gain": 0.014035087719298511
+    },
+    {
+      "eta": 3.08,
+      "z_star": 0.6079807289484709,
+      "learning_share": 0.7599759111855886,
+      "rcrit": 2.398330082216172,
+      "task_B": 2.32875,
+      "full_learning": 2.178299999999999,
+      "gain": 0.029878725589338684
+    },
+    {
+      "eta": 3.12,
+      "z_star": 0.6509725906277629,
+      "learning_share": 0.8137157382847036,
+      "rcrit": 2.588892849248454,
+      "task_B": 2.460000000000001,
+      "full_learning": 2.463299999999999,
+      "gain": 0.05098560843115152
+    },
+    {
+      "eta": 3.16,
+      "z_star": 0.7003047351148619,
+      "learning_share": 0.8753809188935774,
+      "rcrit": 2.8077004951945628,
+      "task_B": 2.59375,
+      "full_learning": 2.7546999999999993,
+      "gain": 0.01924002439269734
+    }
+  ],
+  "checks": {
+    "frontier_lp_max_error": 1.9984014443252818e-15,
+    "optimizer_grid_gap": 0.0001191400000006837,
+    "optimizer_scalar_gap": 8.881784197001252e-16,
+    "drift_identity_max_error": 2.7755575615628914e-15,
+    "support_threshold_error": 8.326672684688674e-17,
+    "tangency_location_error": 6.041211975116312e-11,
+    "scale_invariance_max_error": 6.217248937900877e-15,
+    "psi_min_increment": 0.0,
+    "eta_monotone": true
+  }
+}

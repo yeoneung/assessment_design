@@ -1,0 +1,100 @@
+{
+  "notice": "All inputs are synthetic. Each column permits optimal allocation of the same expert-time budget. Strictly smaller pressure is required for a stable positive stock.",
+  "parameters": {
+    "L": 2.0,
+    "d": [
+      0.1,
+      0.25,
+      0.45
+    ],
+    "p1": [
+      0.9,
+      0.9,
+      0.9
+    ],
+    "p0": [
+      0.8,
+      0.65,
+      0.45
+    ],
+    "t": [
+      0.06,
+      0.35,
+      2.2
+    ],
+    "b": 1.0,
+    "g": 2.0,
+    "G0": 0.2,
+    "eta": 3.12,
+    "delta": 1.0,
+    "K": 1.0,
+    "kbar": 0.8,
+    "r": 1.5,
+    "H0_map": 1.5,
+    "H_compare": 1.8
+  },
+  "baseline_resilient_exposure": 0.6509725906277629,
+  "assessment_only_optimum": 2.588892849248454,
+  "rows": [
+    {
+      "tau": 0.0,
+      "training_only": 0.0,
+      "task_2": 2.460000000000001,
+      "baseline_resilient": 2.588892849248454,
+      "cheapest_universal": 2.463299999999999,
+      "joint_optimum": 2.588892849248454,
+      "optimal_exposure": 0.6509725906277629,
+      "gain_over_assessment_only_optimum": 0.0,
+      "task_2_probability": 0.6225685234305928,
+      "task_3_probability": 0.3774314765694073
+    },
+    {
+      "tau": 0.5,
+      "training_only": 0.0,
+      "task_2": 2.460000000000001,
+      "baseline_resilient": 2.588892849248454,
+      "cheapest_universal": 2.463299999999999,
+      "joint_optimum": 2.588892849248454,
+      "optimal_exposure": 0.6509725906277629,
+      "gain_over_assessment_only_optimum": 0.0,
+      "task_2_probability": 0.6225685234305928,
+      "task_3_probability": 0.3774314765694073
+    },
+    {
+      "tau": 0.8,
+      "training_only": 0.0,
+      "task_2": 2.475312500000001,
+      "baseline_resilient": 2.588892849248454,
+      "cheapest_universal": 2.463299999999999,
+      "joint_optimum": 2.588892849248454,
+      "optimal_exposure": 0.6509725906277629,
+      "gain_over_assessment_only_optimum": 0.0,
+      "task_2_probability": 0.6225685234305928,
+      "task_3_probability": 0.3774314765694073
+    },
+    {
+      "tau": 0.9,
+      "training_only": 0.0,
+      "task_2": 3.083472222222224,
+      "baseline_resilient": 2.7641467031570177,
+      "cheapest_universal": 2.4660503472222226,
+      "joint_optimum": 3.083472222222224,
+      "optimal_exposure": 0.5,
+      "gain_over_assessment_only_optimum": 0.1910389505372323,
+      "task_2_probability": 1.0,
+      "task_3_probability": 0.0
+    },
+    {
+      "tau": 0.95,
+      "training_only": 0.0,
+      "task_2": 4.760592105263157,
+      "baseline_resilient": 3.763714870992109,
+      "cheapest_universal": 2.8944120065789467,
+      "joint_optimum": 4.760592105263157,
+      "optimal_exposure": 0.5,
+      "gain_over_assessment_only_optimum": 0.8388525066401027,
+      "task_2_probability": 1.0,
+      "task_3_probability": 0.0
+    }
+  ]
+}
